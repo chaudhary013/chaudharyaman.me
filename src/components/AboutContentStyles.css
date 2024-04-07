@@ -1,0 +1,65 @@
+/* Styling for the photo */
+/* Styling for the photo */
+.me {
+  width: 250px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 50%;
+  /* Rounded corners */
+  border: 2px solid #ccd600;
+  /* White border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Shadow effect */
+  transition: transform 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+/* Hover effect for the photo */
+.me:hover {
+  transform: scale(1.1);
+  /* Scale up the photo on hover */
+}
+.about{
+  width: 100%;
+  display: flex;
+  margin: 3rem 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.about .left{
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+.about .left p{
+  margin: 1.2rem 0;
+}
+.about .left p{
+  max-width: 700px;
+}
+.right .img-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+.right .img{
+  max-width: 90%;
+  border: 1px solid #333;
+}
+.right .top{
+  grid-column: 1 / spam 8;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 6;
+}
+.right .bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  z-index: 8;
+}
