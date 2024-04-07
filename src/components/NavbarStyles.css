@@ -16,7 +16,7 @@
   transition: transform 0.3s ease;
   /* Smooth transition on hover */
 
-  background-image: url("C:\Users\chaud\Downloads\me2dot0.jpg");
+    background-image: url("C:\Users\chaud\Downloads\me2dot0.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
